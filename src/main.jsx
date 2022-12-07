@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom/client'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 import App from './App'
+
 import Movie from './pages/Movie'
 import Search from './pages/Search'
 import Home from './pages/Home'
 
-import './index.css'
+import './styles/index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
